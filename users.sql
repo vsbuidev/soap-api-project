@@ -1,17 +1,17 @@
 -- Create the database
-CREATE DATABASE testdb_soap;
+CREATE DATABASE testdb;
 
--- Use the created database
-USE testdb_soap;
+-- Use the database
+USE testdb;
 
--- Create the users table
-CREATE TABLE users_soap (
+-- users table
+CREATE TABLE users (
     id INT(11) AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
     email VARCHAR(100) NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
--- Insert sample data
-INSERT INTO users (name, email) VALUES ('Ajay', 'ajay@example.com');
-INSERT INTO users (name, email) VALUES ('Bobley', 'bobley@example.com');
+-- sample data
+INSERT INTO users (name, email) VALUES ('Alice', 'alice@example.com');
+INSERT INTO users (name, email) VALUES ('Bob', 'bob@example.com');
