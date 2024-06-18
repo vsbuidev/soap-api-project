@@ -2,7 +2,7 @@
 class Database
 {
     private $host = 'localhost';
-    private $db_name = 'testdb_soap';
+    private $db_name = 'testdb';
     private $username = 'root';
     private $password = '';
     public $conn;
